@@ -85,6 +85,7 @@ class ToDoDetailsViewController: UIViewController {
     }
     
     func completeTask(alert: UIAlertController) {
+        print("dsad")
          
         toDoItem.isComplete = true
 
