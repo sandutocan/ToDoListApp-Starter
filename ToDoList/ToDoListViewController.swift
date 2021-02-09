@@ -35,6 +35,7 @@ class ToDoListViewController: UIViewController,UITableViewDataSource, UITableVie
         
         NotificationCenter.default.addObserver(self, selector: #selector(addNew(_ :)), name: NSNotification.Name(rawValue: "AddTask"), object: nil)
         
+        print("loaded")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
